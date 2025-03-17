@@ -4,6 +4,8 @@
  * Module dependencies.
  */
 
+global.database = require('../db');
+
 var app = require('../app');
 var debug = require('debug')('mflix:server');
 var http = require('http');
